@@ -69,3 +69,4 @@ opções:
 “switch-case” (os demais comandos não possuem limitação);
 
 ▪ Fora do laço de repetição você poderá utilizar quantos comandos precisar.
+
