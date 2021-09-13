@@ -40,12 +40,19 @@ O programa deve iniciar cada interação notificando a sala que o jogador está 
 opções:
 
 Algumas regras que precisam ser implementadas:
+
 ▪ Os heróis vencem ao chegar na Sala 9;
+
 ▪ A sala 6 tem realmente uma única possibilidade;
+
 ▪ Os heróis perdem se levarem 7 ou mais interações para chegarem na sala 9;
+
 ▪ Cada vez que os heróis escolhem um caminho é considerado 1 interação.
+
 ▪ Você precisa utilizar um laço de repetição, podendo ser o comando “while”;
+
 ▪ Dentro do laço de repetição você poderá incluir somente UM BLOCO de comando “if”
 (com direito a um elif e um else, mas sem outros ifs internos) e NENHUM comando
 “switch-case” (os demais comandos não possuem limitação);
+
 ▪ Fora do laço de repetição você poderá utilizar quantos comandos precisar.
