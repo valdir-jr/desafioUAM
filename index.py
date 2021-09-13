@@ -22,7 +22,7 @@ else:
     classe = "Pobre"
     print("\nEscolheu a classe secreta POBRE")
 
-#:ok_hand:
+
 
 print("\n---------------------------------------------------------------------------")
 
@@ -33,3 +33,32 @@ print("\n-----------------------------------------------------------------------
 print("\n Olha {} cuidado,Mystic Dungeon tem varias armadilhas cuidado para nao cair \n".format(nome))
 
 print(" A cada sala que você entra uma pedra desliza da caverna se passar por + de 7 salas a caverna caíra e voce morrerá\n".format(nome))
+
+salaAtual = 1
+interacoes = 0
+
+while(salaAtual != 9  and interacoes < 7):
+    if(salaAtual == 6):
+        print("\n---------------------------------------------------------------------------")
+        print("\n ALERTA: PEDRAS CAIDAS: {}".format(interacoes))
+        print("\n{} {}, Você está na sala: {}\n".format(classe,nome,salaAtual))
+        escolha = int(input("Escolha seu caminho:\n[2] - Caminho preto\n"))
+        salaAtual = salaAtual+2
+        interacoes = interacoes+1
+    elif(salaAtual == 10):
+        print("\n---------------------------------------------------------------------------")
+        print("\n ALERTA: PEDRAS CAIDAS: {}".format(interacoes))
+        print("\n{} {}, VOCÊ CAIU NO PORTAL!!\n".format(classe,nome))
+        salaAtual = random.randint(1,5)
+        print("\n---------------------------------------------------------------------------")
+        print("\n{} {}, Você está na sala: {}\n".format(classe,nome,salaAtual))
+        escolha = int(input("Escolha seu caminho:\n[1] - Caminho vermelho\n[2] - Caminho preto\n"))
+        salaAtual = salaAtual+escolha
+        interacoes = interacoes+1
+    else:
+        print("\n---------------------------------------------------------------------------")
+        print("\n ALERTA: PEDRAS CAIDAS: {}".format(interacoes))
+        print("\n{} {}, Você está na sala: {}\n".format(classe,nome,salaAtual))
+        escolha = int(input("Escolha seu caminho:\n[1] - Caminho vermelho\n[2] - Caminho preto\n"))
+        salaAtual = salaAtual+escolha
+        interacoes = interacoes+1 
