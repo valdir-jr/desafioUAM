@@ -23,3 +23,13 @@ else:
     print("\nEscolheu a classe secreta POBRE")
 
 #:ok_hand:
+
+print("\n---------------------------------------------------------------------------")
+
+print("\n {} {}, Bem-Vindo á Mystic Dungeon, desbrave essa grande aventura em busca pelo fragmento da pedra mágica.\n".format(classe,nome))
+
+print("\n---------------------------------------------------------------------------")
+
+print("\n Olha {} cuidado,Mystic Dungeon tem varias armadilhas cuidado para nao cair \n".format(nome))
+
+print(" A cada sala que você entra uma pedra desliza da caverna se passar por + de 7 salas a caverna caíra e voce morrerá\n".format(nome))
