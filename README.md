@@ -1,10 +1,12 @@
-# desafioUAM
-Trabalho realizado para a disciplina de técnica de redação UAM
+<h1 align="center">
+📄<br>Técnica de programação
+</h1>
+
 Universidade Anhembi Morumbi
 
 Projeto N1 – Parte 1
 
-Observações Gerais
+# 📕 Observações Gerais
 
 1. Trabalho pode ser feito de três a cinco pessoas. Caso opte por fazer individualmente, converse
 com o professor por mensagem privada.
@@ -12,7 +14,7 @@ com o professor por mensagem privada.
 3. Compreender o enunciado e o problema proposto faz parte da avaliação
 
 
-Situação Problema
+# ✔️ Situação Problema
 
 Muitos jogos de RPG são baseados em explorar dungeons, ou seja, explorar cavernas,
 calabouços, florestas e todo tipo de lugar desconhecido.
@@ -29,7 +31,9 @@ Você precisará criar a lógica para fazer com que por meio de interações com
 seja possível avançar pelos caminhos do labirinto. Considere que “o mapa” culto é
 idêntico a este:
 
-![unknown](https://user-images.githubusercontent.com/72165678/133164620-35c3c325-84e4-4ee3-ad8d-42d6eac1cd2a.png)
+<h1 align="center">
+  <img src=https://user-images.githubusercontent.com/72165678/133164620-35c3c325-84e4-4ee3-ad8d-42d6eac1cd2a.png>
+</h1>
 
 
 Note que o caminho preto da sala 8 leva à um local desconhecido, isso porque esta
@@ -43,10 +47,12 @@ todo em console, não é preciso criar nenhum tipo de gráfico.
 O programa deve iniciar cada interação notificando a sala que o jogador está e mostrando as
 opções:
 
-![unknown (1)](https://user-images.githubusercontent.com/72165678/133164678-3ca4e256-d223-4fc5-9578-7e530a7cc187.png)
+<h1 align="center">
+  <img src=https://user-images.githubusercontent.com/72165678/133164678-3ca4e256-d223-4fc5-9578-7e530a7cc187.png>
+</h1>
 
 
-Algumas regras que precisam ser implementadas:
+# 📜 Algumas regras que precisam ser implementadas:
 
 ▪ Os heróis vencem ao chegar na Sala 9;
 
