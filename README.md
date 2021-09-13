@@ -22,11 +22,15 @@ As regras para a travessia do labirinto são bastante simples. Toda a guilda com
 sala 1 e a partir dela pode-se escolher 2 opções diferentes:
 
 • 1 – Caminho vermelho (ou direita);
+
 • 2 – Caminho preto (ou esquerda);
 
 Você precisará criar a lógica para fazer com que por meio de interações com o usuário
 seja possível avançar pelos caminhos do labirinto. Considere que “o mapa” culto é
 idêntico a este:
+
+![unknown](https://user-images.githubusercontent.com/72165678/133164620-35c3c325-84e4-4ee3-ad8d-42d6eac1cd2a.png)
+
 
 Note que o caminho preto da sala 8 leva à um local desconhecido, isso porque esta
 dungeon é controlada por criaturas místicas que dominam o tempo-espaço e criaram
@@ -38,6 +42,9 @@ caminho vermelho e preto na estrutura indicada anteriormente. Ele deverá funcio
 todo em console, não é preciso criar nenhum tipo de gráfico.
 O programa deve iniciar cada interação notificando a sala que o jogador está e mostrando as
 opções:
+
+![unknown (1)](https://user-images.githubusercontent.com/72165678/133164678-3ca4e256-d223-4fc5-9578-7e530a7cc187.png)
+
 
 Algumas regras que precisam ser implementadas:
 
